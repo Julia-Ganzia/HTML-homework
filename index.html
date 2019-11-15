@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>index</title>
+    <link rel="shorcut icon" href="https://icon-icons.com/icons2/1017/PNG/48/biaoqing_012_icon-icons.com_75858.png">
+   <style>
+     h1 { 
+         
+         text-transform: uppercase; 
+        }
+        </style>
+
+</head>
+<body>
+<div style="text-align: center;"> <h1>  увлекательный HTML</h1> </div>
+
+
+
+<nav >
+    <strong>Menu</strong>
+</nav>
+
+<li><a href="page.html"> My Page</a></li>
+<li><a href="https://www.google.com/" target="_blank"> Google</a></li>
+
+    <p style="text-align: center;">
+         <b >"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b>
+         <br/> 
+        <i > Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</i>
+    </p>
+
+    <p > 
+        <u>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</u>
+        <br/>
+        <s>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</s>
+    </p>
+
+    <img src=https://cdn.pixabay.com/photo/2019/11/10/20/11/portrait-4616631_960_720.jpg style="display: block; margin: 0 auto;" height="400">
+
+<table>
+    <caption><h2>Интересные теги</h2></caption>
+    <colgroup>
+        <col style="background-color: yellowgreen">
+        <col style="background-color: grey">
+        <col style="background-color: rgb(181, 216, 240)">
+        <col style="background-color: rgb(124, 80, 124)">
+      </colgroup>
+    <tr>
+        <th >НАЗВАНИЕ ТЕГА</th>
+        <th >ОПИCАНИЕ ТЕГА</th>
+        <th>ПРИМЕР</th>
+        <th>ТИП ТЕГА</th>
+    </tr>
+
+    <tr>
+        <td rowspan=2 ><h2>&ltins&gt и &ltdel&gt</h2></td>
+        <td style="background-color: rgb(228, 171, 171)"><i>Эти теги позволяют семантически выделить, что было до изменения на сайте и что стало после. Текст, заключенный в<br/>
+             тег &ltdel&gt зачеркивается, а заключенный в &ltins&gt — подчеркивается:</i><b>&ltdel&gtБыло&lt/del&gt &ltins&gtСтало&lt/ins&gt</b></td>
+         <td rowspan=2 ><del>Было</del> <ins>Стало</ins></td>
+         <td rowspan=2 ><b>строчный</b></td>
+        <tr>
+            <td><pre><b>
+                        &ltdel&gtБыло&lt/del&gt &ltins&gtСтало&lt/ins&gt
+            </b></pre></td>
+        </tr>
+    
+     <tr>
+        <td rowspan=2 ><h2>&ltlabel&gt</h2></td>
+        <td style="background-color:  rgb(228, 171, 171)"><i>С помощью этого тега задаются метки элементам формы. Иными словами, при клике мышью на текст в теге &ltlabel&gt<br/>
+             переводится фокус к соответствующему элементу формы, что существенно упрощает навигацию по форме.
+             <br/>Например, этот тег просто незаменим в голосовалках:</i>
+        </td> 
+        <td rowspan=2 >
+                <form action="#">
+                        <h6>А Вы любите спать?</h6>
+                        <input type="radio" id="id1" />
+                        <label for="id1">Да</label>
+                        <br />
+                        <input type="radio" id="id2" />
+                        <label for="id2">Нет</label>
+                        <br />
+                        <input type="radio" id="id3" />
+                        <label for="id3">Я люблю есть</label>
+                </form>
+         </td>
+        <td rowspan=2 ><b>строчный</b></td>
+    </tr>
+        <tr>
+            <td><pre><b>
+                    &ltform action="#"&gt
+                        &lth6>А Вы любите спать?&lt/h6&gt
+                        &ltinput type="radio" id="id1" /&gt
+                        &ltlabel for="id1">Да&lt/label&gt
+                        &ltbr /&gt
+                        &ltinput type="radio" id="id2" /&gt
+                        &ltlabel for="id2">Нет&lt/label&gt
+                        &lt&ltbr /&gt
+                        &ltinput type="radio" id="id3" /&gt
+                        &ltlabel for="id3">Я люблю есть&lt/label&gt
+                    &lt/form&gt
+                </b></pre></td>
+        </tr>
+         
+    <tr>
+            <td rowspan=2 ><h2>&ltoptgroup&gt</h2></td>    
+            <td style="background-color:  rgb(228, 171, 171)"><i>Тег &ltoptgroup&gt позволяет логически и визуально объединить элементы select-а:</i>
+            </td> 
+            <td rowspan=2 >
+                             <select>
+                                    <optgroup label="Цвета">
+                                    <option>Красный</option>
+                                    <option>Зеленый</option>
+                                    <option>Белый</option>
+                                    </optgroup>
+                                    <optgroup label="Порядок">
+                                    <option>Первый</option>
+                                    <option>Второй</option>
+                                    <option>Третий</option>
+                                    </optgroup>
+                              </select>
+            </td>
+            <td rowspan=2 ><b>строчный</b></td>
+    </tr>
+            
+    <tr>
+            <td><pre><b>
+                    &ltselect>
+                        &ltoptgroup label="Цвета">
+                        &ltoption>Красный&lt/option>
+                        &ltoption>Зеленый&lt/option>
+                        &ltoption>Белый&lt/option>
+                        &lt/optgroup>
+                        &ltoptgroup label="Порядок">
+                        &ltoption>Первый&lt/option>
+                        &ltoption>Второй&lt/option>
+                        &ltoption>Третий&lt/option>
+                        &lt/optgroup>
+                    &lt/select>
+            </b></pre></td>
+    </tr>
+
+     <tr>
+            <td rowspan=2 ><h2>&ltfieldset&gt</h2></td>    
+            <td style="background-color:  rgb(228, 171, 171)"><i>Тег &ltfieldset&gt логически группирует элементы формы. С помощью тега &ltlegend&gt можно задать название группе.<br/>
+                 Визуально группа выделяется рамкой вместе с меткой:</i>
+            </td> 
+            <td rowspan=2 >
+                    <form action="#">
+                            <fieldset>
+                              <legend>Ваш пол</legend>
+                              <input type="radio" />
+                              Мужской
+                              <input type="radio" />
+                              Женский
+                            </fieldset>
+                    </form>
+            </td>
+            <td rowspan=2 ><b>строчный</b></td>
+    </tr>
+    <tr>
+            <td><pre><b>
+                    &ltform action="#">
+                            &ltfieldset>
+                            &ltlegend>Ваш пол&lt/legend>
+                            &ltinput type="radio" />
+                            Мужской
+                            &ltinput type="radio" />
+                            Женский
+                            &lt/fieldset>
+                    &lt/form>
+            </b></pre></td>
+    </tr>
+
+    <tr>
+            <td rowspan=2 ><h2>&ltrel&gt</h2></td>   
+            <td style="background-color:  rgb(228, 171, 171)"><i>Этот атрибут можно ставить в любые теги,<br/>
+                 что очень полезно при обращении, например, через ява скрипт ко всем тегам с определенным атрибутом:</i>
+            </td> 
+            <td rowspan=2>
+                    <a href="https://cdn.pixabay.com/photo/2019/11/12/21/12/new-york-4622056__340.jpg" target="_blank" rel="show">Увеличить картинку</a>
+            </td>
+            <td rowspan=2 ><b>блочный</b></td>
+    </tr>
+
+
+</table>
+</body>
+</html>
+
+
